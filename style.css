@@ -18,8 +18,6 @@ a {
     box-shadow: 0 0 30px 0.5px #dddddd;
 }
 .csrd>div{
-    /* margin-left: 50px;
-    margin-right: 50px; */
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -30,6 +28,4 @@ a {
     padding:10px;
 font-size: 1.5rem;
     color: white;
-    /* margin-top:10px; */
-   
 }
