@@ -4,59 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Templete</title>
+    <title>e-school</title>
     <link rel="icon" type="image/png" href="http://www.google.com/s2/favicons?domain=javascript.com/">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
                                                                                                         <!-- header -->
+<br>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#e8fcec">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="icon/Logo.png" alt="" width="30%" height="auto"></a>
-              <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">            <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse " id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Books</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Courses</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Others</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active btn btn-success rounded-pill" href="#">Sign in</a>
-                  </li>
-                </ul>
+              <div class="row">
+                <div class="col-lg-3">
+                  <a class="navbar-brand " href="#"><img class="animate__animated animate__backInLeft"src="icon/Logo.png" alt="" width="100%" height="auto"></a>
+                  <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse col-lg-9 cspd" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active animate__animated animate__backInLeft" aria-current="page" href="#">Books</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active animate__animated animate__backInLeft" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active animate__animated animate__backInLeft" href="#">Others</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active animate__animated animate__backInLeft" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item animate__animated animate__backInLeft">
+                      <a class="nav-link signin btn btn-success rounded-pill animate__animated animate__heartBeat animate__slow	5s animate__infinite	infinite" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="padding: 10px 10px; border:none; background-color: rgb(59, 182, 100);" href="#offcanvas"><span class="signin">Sign in</span></a>
+                    </li>
+                    </ul>
+                </div>
               </div>
-            </div>
+             </div>
           </nav>
           </div>
 
                                                                                                         <!-- section 2-->
 
+                                                                                                        
 <br><br><br>
 <div class="container">
 <div class="row">
 
-    <div class="d-flex justify-content-center align-items-center col-lg-6" style="align-items: center; align-content: center;">
+    <div class="d-flex justify-content-center align-items-center col-lg-6 animate__animated animate__backInLeft" style="align-items: center; align-content: center;">
         <div class="card-body">
-        <h4 class="card-title" style="color:#FA804C;">Are you ready to learn </h4>
-        <h1 class="card-text display-1"><b>Learn with fun</b></h1>
-        <h1 class="card-text display-1"><b>on</b> <span style="color:rgb(67, 201, 111);"><b>any schedule</b></span></h1>
+        <h4 class="card-title " style="color:#FA804C;">Are you ready to learn </h4>
+        <h2 class="card-text display-2 font-weight-bold"><b>Learn with fun</b></h2>
+        <h2 class="card-text display-2 font-weight-bold"><b>on</b> <span style="color:rgb(67, 201, 111);"><b>any schedule</b></span></h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsa accusantium error</p>
-        <a href="#" class="btn btn-success rounded-pill" style="width:30%; ">Get started</a>
+        <a href="#modal" class="btn btn-success rounded-pill animate__animated animate__flash animate__slow	5s animate__infinite	infinite" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width:30%; padding: 10px 10px; border:none; background-color: rgb(59, 182, 100);">Get started</a>
         </div>
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6 animate__animated animate__backInRight">
         <img src="Photos/Illustration.png" alt="" width="100%">
         </div>
 </div>
@@ -67,40 +82,43 @@
 
 <div class="bgw" style="background-color: rgb(255, 250, 250);">
     <br><br><br><br>
-
-    
-    <div class="container d-flex justify-content-around " >
+      <div class="container d-flex justify-content-around " >
         <div class="row">
-        <div class="csrd col-lg-3 col-12 p-4" >
-            <img src="icon/book.png" class="card-img-top "  style="width: 7rem;" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">100+ Topics</h5>
-            <p class="card-text">learn anything</p>
-            </div>
+        <div class="csrd col-lg-3 col-12 p-5  animate__animated animate__swing animate__slow	5s animate__infinite	infinite"  >
+        <div><img src="icon/book.png" class="card-img-top "  style="width:7rem ;margin-left: auto;margin-right:auto" alt="...">
+          <div class="card-body">
+          <h5 class="card-title">100+ Topics</h5>
+          <p class="card-text">learn anything</p>
+          </div>
         </div>
-        <div class="csrd col-lg-3 col-12 p-4" >
-            <img src="icon/Student.png" class="card-img-top "  style="width: 7rem;" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">1800+ students</h5>
-            <p class="card-text">learn anything</p>
-            </div>
         </div>
-        <div class="csrd col-lg-3 col-12 p-4" >
-            <img src="icon/Test.png" class="card-img-top "  style="width: 7rem;" alt="...">
+        <div class="csrd col-lg-3 col-12 p-5 animate__animated animate__swing animate__slow	5s animate__infinite	infinite" >
+        <div><img src="icon/Student.png" class="card-img-top "  style="width:7rem;" alt="...">
+          <div class="card-body">
+          <h5 class="card-title">1800+ students</h5>
+          <p class="card-text">learn anything</p>
+          </div>
+        </div>
+        </div>
+        <div class="csrd col-lg-3 col-12 p-5 animate__animated animate__swing animate__slow	5s animate__infinite	infinite" >
+          <div><img src="icon/Test.png" class="card-img-top "  style="width:7rem ;" alt="...">
             <div class="card-body">
             <h5 class="card-title">9k+ test taken</h5>
             <p class="card-text">learn anything</p>
             </div>
+          </div>
         </div>
-        <div class="csrd col-lg-3 col-12 p-4" >
-            <img src="icon/Students.png" class="card-img-top "  style="width: 7rem;" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">2000+ students</h5>
-            <p class="card-text">learn anything</p>
-            </div>
-        </div>
+        <div class="csrd col-lg-3 col-12 p-5 animate__animated animate__swing animate__slow	5s animate__infinite	infinite" >
+    <div><img src="icon/Students.png" class="card-img-top "  style="width:7rem;" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">2000+ students</h5>
+    <p class="card-text">learn anything</p>
     </div>
+  </div>
         </div>
+      </div>
+      </div>
+      <br><br><br><br>
     </div>
 
 
@@ -108,9 +126,59 @@
 
 
 
+<!-- Off canvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+      <h5 id="offcanvasRightLabel">Login</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+  </div>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Create new account</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
 
+          <button type="submit" class="btn btn-primary">Sign up</button>
+        </form>
+      </div>
 
+    </div>
+  </div>
+</div>
 
     <!-- Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
