@@ -11,3 +11,7 @@ a {
     font-size:1.5rem;
     color:black;
 }
+
+.csrd:hover{
+    box-shadow: 10px 10px 10px 10px #dddddd;
+}
